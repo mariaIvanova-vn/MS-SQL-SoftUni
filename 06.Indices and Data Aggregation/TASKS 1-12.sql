@@ -127,3 +127,4 @@ SELECT [DepositGroup], [IsDepositExpired], AVG(DepositInterest) AS [AverageInter
 SELECT SUM([guest].[DepositAmount] - [host].[DepositAmount]) AS [SumDifference]
 	FROM [WizzardDeposits] AS host
 	JOIN [WizzardDeposits] AS guest ON guest.Id + 1 = host.Id
+
