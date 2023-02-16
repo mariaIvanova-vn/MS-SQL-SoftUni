@@ -208,8 +208,7 @@ END
 
 GO
 
-SELECT dbo.udf_GetTouristsCountOnATouristSite ('Samuil’s Fortress')
-SELECT dbo.udf_GetTouristsCountOnATouristSite ('Regional History Museum – Vratsa')
+
 
 
 --12.	Annual Reward Lottery-----------------------------------------
